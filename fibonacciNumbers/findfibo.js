@@ -12,5 +12,6 @@ function fibofinder(n) {
   }
   return next;
 }
-const number = prompt('Please enter your number to find fibonacci in this order');
+
+const number = parseInt(prompt('Please enter your number to find fibonacci in this order'), 10);
 alert(`Fibonacci number in this order is ${fibofinder(number)}`);
